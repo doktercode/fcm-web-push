@@ -10,7 +10,7 @@ const FCM = new FCMWP()
 FCM.setAuthKey('xxx')
 ```
 
-## Verify an user token
+## Verify a user token
 
 ```javascript
 let token = 'xxx'
