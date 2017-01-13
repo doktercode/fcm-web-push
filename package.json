@@ -1,0 +1,25 @@
+{
+  "name": "fcm-web-push",
+  "version": "1.0.0",
+  "description": "Firebase Cloud Messaging Web Push",
+  "main": "fcm-web-push.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "a"
+  },
+  "keywords": [
+    "firebase",
+    "cloud",
+    "messaging",
+    "web",
+    "push"
+  ],
+  "author": "Emre Tekince <emretekince@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.79.0"
+  }
+}
