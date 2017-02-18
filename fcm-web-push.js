@@ -35,7 +35,7 @@ class FCMWP {
             request(options, (error, response, body) => {
                 if (error || response.statusCode != 200) return rej(error)
                 body = JSON.parse(body)
-                res(body.success)
+                res(body)
             })
         })
     }
@@ -63,7 +63,7 @@ class FCMWP {
             request(options, (error, response, body) => {
                 if (error || response.statusCode != 200) return rej(error)
                 body = JSON.parse(body)
-                res(body.success)
+                res(body)
             })
         })
     }
